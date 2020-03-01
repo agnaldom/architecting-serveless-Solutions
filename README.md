@@ -23,12 +23,15 @@ and Amazon DynamoDB.
 
 2. Which of these are good candidates for using Amazon S3?
 
-R.
+Solution
 * Store and distribute static web content or media
 * Data store for computation or large-scale analytics
 * Backup store
 
-3. 
+3. Wich of these are true statements about AWS identity and Access Management (IAM) roles?
 
+Solution
+* Roles can be assumed using the console, the CLI, the AssumeRole API,
+and the AWS Security Token Service (AWS STS).
 
 
