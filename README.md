@@ -2,4 +2,5 @@
 Architecting Serveless Solutions on AWS
 
 
-# [Prerequite Self-Checks](preresquite-checks.md)
+# [Archtecting Review](Architecting-review.md)
+# [AWS Lambda Review](aws-lambda-review.md)
