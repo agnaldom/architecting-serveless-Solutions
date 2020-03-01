@@ -49,4 +49,7 @@ invocations executed on that environment.
 
 7.
 
+* In s3 is Resource policy
+* In Dynamondb its Execution role
+
 ![Alt text](img/lambda-iam.jpg "Lambda IAM")
