@@ -36,9 +36,9 @@ each configuration.
 
 5. In a stream-based event source, the number of concurrent Lambda execution will equal:
 
-* Request rate * average function duration.
+* The number of actives shards.
 
-5. Which of the following statements about serveless deployments are true?
+6. Which of the following statements about serveless deployments are true?
 
 * You can model your infraestructure in a AWS CloudFormation template and use that
 to deploy your desired stack.
@@ -47,6 +47,6 @@ to deploy your desired stack.
 branches so you can experiment without incurring cost outside of the actual
 invocations executed on that environment.
 
-6.
+7.
 
 ![Alt text](img/lambda-iam.jpg "Lambda IAM")
