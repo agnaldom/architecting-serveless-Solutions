@@ -3,7 +3,7 @@
 There are four self-checks: Arquitecting on AWS, AWS Lambada, Amazon API Gateway,
 and Amazon DynamoDB.
 
-# Solution:
+# Architecting Review
 
 1. 
 * **Security**
@@ -76,3 +76,30 @@ Solution
 
 ![Alt text](img/architectural.jpg "Ckick to highliht items that reflect architectural best practices.")
 
+
+# AWS Lambda Self-check
+
+1. Which of the following statements are true?
+
+Solution
+* If Lambda is unable to invoke a function triggered by a 
+message in an SQS queue, the falied invoke will go to the 
+dead-letter  queue (if onde is configured).
+* Amazon S3 triggers Lambda asynchronously.
+
+2. What is the unit at which scalling is measured for lambda funcions?
+
+* Concurrency
+
+3. Match each concept to its related behavior.
+
+* Launch environmentm download code, initialize dependencies, run code.
+  * Cold Start
+* Thaw container, run code.
+  * Warm  Start
+* Concurrent invocations increse to regional immediate concurrency increase level.
+  * Burst
+* Invocations of a function are throttled when a configured limit is reached.
+  * Reserved Concurrency
+* Long-running funcion is halted before completion.
+  * Timeout
