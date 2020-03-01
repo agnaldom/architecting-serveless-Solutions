@@ -103,3 +103,16 @@ dead-letter  queue (if onde is configured).
   * Reserved Concurrency
 * Long-running funcion is halted before completion.
   * Timeout
+
+4. You've been asked to reduce the duration of a production Lambda funcion to save 
+on billable costs. You've been told that it runs for 5 minutes. Which of these actons
+would you take?
+
+* Test at higher memory configurations and compare duration and cost at 
+each configuration.
+* Check to see if there are SDK components in the deploy package that aren't necessary.
+* Confirm whether 5 minutes is the typical duration through production monitoring.
+
+5. In a stream-based event source, the number of concurrent Lambda execution will equal:
+
+* Request rate * average function duration.
