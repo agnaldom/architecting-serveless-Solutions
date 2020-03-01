@@ -32,3 +32,28 @@ global web application?
 * You must choose between using resource policies or configuring
 an authorizer to secure an API.
 * You can grant permission to manager an API with apigateway.
+
+5. Put these API throttling options in the order in which they
+would be applied to a request.
+
+* 1 Per client, per method limits ser for an API stage in a usage plan
+
+6. Which of the following statements about API Gateway is FALSE?
+
+* When you test from the console, no logs are written to CLoudWatch, and 
+the API executions are only simulated.
+
+7. Match the API Gateway information found in CloudWatch to its description.
+
+* Details about who accessed your API
+  * Access Logs
+* Time between API Gateway receiving a request and returning a response.
+  * Latency metric
+* Time batween API Gateway relaying a request to the backend
+and receiving a response.
+  * Integration Latency metric
+* Number of requests served from the backend in a given period,
+when API caching is enable.
+  * CacheMissCount
+* Number of requests served from the API cache in a given period.
+  * CacheHitcount
