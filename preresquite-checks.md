@@ -33,6 +33,7 @@ and the AWS Security Token Service (AWS STS).
 
 4. Amazon CloudWatch feature to its descriptio
 
+Solution
 * Provide data about the preformance of your systems. 
   * Metrics
 * Store and access log files from sources like EC2 instances or AWS Lambda.
@@ -46,3 +47,14 @@ and the AWS Security Token Service (AWS STS).
 * Process events. Can include services like AWS Lambda functions or Amazon SNS topics.
   * Targets
 
+5. Withc two services would you use to ensure that your EC2-based web application can scale
+up and down horizontally as traffic increases/decrease?
+
+Solution
+* Amazon EC2 Auto Scaling
+* Elastic Load Balancing
+
+6. Witch of the following statements is FALSE with respect to managing state information?
+
+Solution
+* HTTP was designed to manage sets of related requests anda maintain state information during a session.
