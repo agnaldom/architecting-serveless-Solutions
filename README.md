@@ -34,4 +34,18 @@ Solution
 * Roles can be assumed using the console, the CLI, the AssumeRole API,
 and the AWS Security Token Service (AWS STS).
 
+4. Amazon CloudWatch feature to its descriptio
+
+* Provide data about the preformance of your systems. 
+  * Metrics
+* Store and access log files from sources like EC2 instances or AWS Lambda.
+  * Logs
+* Watch a single metric over a specified time period and perform specified actions.
+  * Alarms
+* Deliver near-real-time stream of system events that describe changes in AWS resource.
+  * Events
+* Match incomming events and route them to targets for processing
+  * Rules
+* Process events. Can include services like AWS Lambda functions or Amazon SNS topics.
+  * Targets
 
