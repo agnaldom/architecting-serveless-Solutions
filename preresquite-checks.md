@@ -28,8 +28,16 @@ Solution
 3. Wich of these are true statements about AWS identity and Access Management (IAM) roles?
 
 Solution
+
+* Roles let you define a set of permission. The Permissions are attached
+to a role, and the is asumed by a user or service.
+* AWS services can programatically assume a role at runtime.
 * Roles can be assumed using the console, the CLI, the AssumeRole API,
 and the AWS Security Token Service (AWS STS).
+* Federated users sign in using credentials provided by an identity
+provider (IdP). AWS provides the IdP with temporary credentials
+associated with a role to pass on to the user for inclusion in subsequent
+AWS resource requests.
 
 4. Amazon CloudWatch feature to its descriptio
 
@@ -60,5 +68,7 @@ Solution
 * HTTP was designed to manage sets of related requests anda maintain state information during a session.
 
 
-![Alt text][id]
-7. [id]: img/match-arquiteture.jpg "Match the numbered item to its description".
+7. ![Alt text](img/match-arquiteture.jpg "Match the numbered item to its description").
+
+8. ![Alt text](img/architectural.jpg "Ckick to highliht items that reflect architectural best practices.)
+
