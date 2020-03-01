@@ -2,5 +2,6 @@
 Architecting Serveless Solutions on AWS
 
 
-# [Archtecting Review](Architecting-review.md)
-# [AWS Lambda Review](aws-lambda-review.md)
+## [Archtecting Review](Architecting-review.md)
+## [AWS Lambda Review](aws-lambda-review.md)
+## [Amazon API Gateway](aws-api-review.md)
