@@ -29,14 +29,15 @@ global web application?
 
 * You can grant permission to invoke an API with execute-API
 * Resource policies can restrict access by account.
-* You must choose between using resource policies or configuring
-an authorizer to secure an API.
 * You can grant permission to manager an API with apigateway.
 
 5. Put these API throttling options in the order in which they
 would be applied to a request.
 
 * 1 Per client, per method limits ser for an API stage in a usage plan
+* 2 Per client limits set in a usage plan
+* 3 Default method limits set in API stoge settings
+* 4 The account level limit
 
 6. Which of the following statements about API Gateway is FALSE?
 
