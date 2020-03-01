@@ -68,7 +68,11 @@ Solution
 * HTTP was designed to manage sets of related requests anda maintain state information during a session.
 
 
-7. ![Alt text](img/match-arquiteture.jpg "Match the numbered item to its description").
+7. 
 
-8. ![Alt text](img/architectural.jpg "Ckick to highliht items that reflect architectural best practices.)
+![Alt text](img/match-arquiteture.jpg "Match the numbered item to its description.")
+
+8. 
+
+![Alt text](img/architectural.jpg "Ckick to highliht items that reflect architectural best practices.")
 
