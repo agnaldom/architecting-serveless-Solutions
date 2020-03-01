@@ -6,14 +6,13 @@ Architecting Serveless Solutions on AWS
 There are four self-checks: Arquitecting on AWS, AWS Lambada, Amazon API Gateway,
 and Amazon DynamoDB.
 
-# Solucion:
+# Solution:
 
 * **Security**:
-
   * **Protect**: Information, systems, and assets while delivering business value
-  
 * **Reliability**:
+  * **Dynamically accquire**: Computing resources to meet demand.
 
-  * **Dynamically accquire**:
+
 
 
