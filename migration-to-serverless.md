@@ -15,30 +15,31 @@ Do you have workers listening to a queue?
 Where can you refactor or enhance functionality without impacting the current implementation?
 
 **Aplication Load Balancer vs. API Gateway for directiong traffic to serveless targets**
-
+______________________________________________________________________________________
 |           Aplication Load Balanecer         |   Amazon API Gateway
----------------------------------------------------------------------------------
+______________________________________________________________________________________
 | Easier to transitor existing computer stack | Good for build REST API and
 | where you are already using an              | Ingrating with other services and
 | Application Load Balancer                   | Lambda functions
-----------------------------------------------------------------------------------
+______________________________________________________________________________________
 | Supports authorization via OIDC-capable     | Suports authorization via AWS identity
 | providers, include Amazon Cognito user      | and Access Management (IAM), Amazon
 | pools                                       | Cognito, and Lambda authorizers
----------------------------------------------------------------------------------------
+______________________________________________________________________________________
 | Charged by the hour, based on Load          | Charged based on requests served
 | Balancer Capacity Units                     | 
-----------------------------------------------------------------------------------------
+______________________________________________________________________________________
 | May be more cost-effective for a steady     | May be more cost-effective for spiky
 | stream of traffic                           | patterns
----------------------------------------------------------------------------------------
+______________________________________________________________________________________
 |                                             | Additional features for API Management:
 |                                             |  
 |                                             | * Export SDK fro clients
 |                                             | * Use throttling and usage plans to control access
 |                                             | * Maintain multiple versions of an API
 |                                             | * Canary deployments
------------------------------------------------------------------------------------------
+______________________________________________________________________________________
+
 
 
 # Knowledge ckeck

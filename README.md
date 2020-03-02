@@ -14,4 +14,4 @@ Architecting Serveless Solutions on AWS
 
 #  SERVERLESS APPLICATION ARCHITECTURES
 
-## [Migrationg to Serveless](migration-to-serveless.md)
+## [Migrationg to Serveless](migration-to-serverless.md)
