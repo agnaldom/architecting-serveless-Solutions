@@ -11,3 +11,7 @@ Architecting Serveless Solutions on AWS
 
 ## [Serveless Event Submission Patternes](serveless-event-submission-patterns.md)
 ## [Failure Management in Event-Driven Architecture](failure-management-in-event-drive.md)
+
+#  SERVERLESS APPLICATION ARCHITECTURES
+
+## [Migrationg to Serveless](migration-to-serveless.md)
