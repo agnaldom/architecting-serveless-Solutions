@@ -17,28 +17,13 @@ Where can you refactor or enhance functionality without impacting the current im
 **Aplication Load Balancer vs. API Gateway for directiong traffic to serveless targets**
 
 
-          Aplication Load Balanecer          |   Amazon API Gateway
-:___________________________________________ | ______________________________________:
- Easier to transitor existing computer stack | Good for build REST API and
- where you are already using an              | Ingrating with other services and
- Application Load Balancer                   | Lambda functions
-:___________________________________________ | ______________________________________:
- Supports authorization via OIDC-capable     | Suports authorization via AWS identity
- providers, include Amazon Cognito user      | and Access Management (IAM), Amazon
- pools                                       | Cognito, and Lambda authorizers
-:___________________________________________ | ______________________________________:
- Charged by the hour, based on Load          | Charged based on requests served
- Balancer Capacity Units                     | 
-:___________________________________________ | ______________________________________:
- May be more cost-effective for a steady     | May be more cost-effective for spiky
- stream of traffic                           | patterns
-:___________________________________________ | ______________________________________:
-                                             | Additional features for API Management:
-                                             |  
-                                             | * Export SDK fro clients
-                                             | * Use throttling and usage plans to control access
-                                             | * Maintain multiple versions of an API
-                                             | * Canary deployments 
+|       Aplication Load Balanecer             |   Amazon API Gateway                 |
+| ------------------------------------------- | ------------------------------------ |
+| Easier to transitor existing computer stack where you are already using an     Application Load Balancer  | Good for build REST API and   Ingrating with other services and Lambda functions   |
+| Supports authorization via OIDC-capable providers, include Amazon Cognito user pools | Suports authorization via AWS identity and Access Management (IAM), Amazon Cognito, and Lambda authorizers |
+| Charged by the hour, based on Load Balancer Capacity Units | Charged based on requests served |
+| May be more cost-effective for a steady stream of traffic | May be more cost-effective for spiky patterns|
+|  | Additional features for API Management: * Export SDK fro clients; * Use throttling and usage plans to control access; * Maintain multiple versions of an API ; * Canary deployments |
 
 
 
