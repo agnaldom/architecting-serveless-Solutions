@@ -15,8 +15,9 @@ Do you have workers listening to a queue?
 Where can you refactor or enhance functionality without impacting the current implementation?
 
 **Aplication Load Balancer vs. API Gateway for directiong traffic to serveless targets**
-:______________________________________________________________________________________:
-|           Aplication Load Balanecer         |   Amazon API Gateway
+
+  
+           Aplication Load Balanecer          |   Amazon API Gateway
 :____________________________________________ | ________________________________________:
 | Easier to transitor existing computer stack | Good for build REST API and
 | where you are already using an              | Ingrating with other services and
