@@ -18,11 +18,11 @@ Where can you refactor or enhance functionality without impacting the current im
 
   
            Aplication Load Balanecer          |   Amazon API Gateway
-:____________________________________________ | ________________________________________:
+_____________________________________________ | ________________________________________
 | Easier to transitor existing computer stack | Good for build REST API and
 | where you are already using an              | Ingrating with other services and
 | Application Load Balancer                   | Lambda functions
-______________________________________________________________________________________
+_____________________________________________ | _______________________________________
 | Supports authorization via OIDC-capable     | Suports authorization via AWS identity
 | providers, include Amazon Cognito user      | and Access Management (IAM), Amazon
 | pools                                       | Cognito, and Lambda authorizers
