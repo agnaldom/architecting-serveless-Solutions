@@ -18,28 +18,28 @@ Where can you refactor or enhance functionality without impacting the current im
 
   
            Aplication Load Balanecer          |   Amazon API Gateway
---------------------------------------------- | --------------------------------------
+_____________________________________________ | _______________________________________
 | Easier to transitor existing computer stack | Good for build REST API and
 | where you are already using an              | Ingrating with other services and
 | Application Load Balancer                   | Lambda functions
---------------------------------------------- | --------------------------------------
+_____________________________________________ | _______________________________________
 | Supports authorization via OIDC-capable     | Suports authorization via AWS identity
 | providers, include Amazon Cognito user      | and Access Management (IAM), Amazon
 | pools                                       | Cognito, and Lambda authorizers
-______________________________________________|_______________________________________
+_____________________________________________ | _______________________________________
 | Charged by the hour, based on Load          | Charged based on requests served
 | Balancer Capacity Units                     | 
-______________________________________________________________________________________
+_____________________________________________ |
 | May be more cost-effective for a steady     | May be more cost-effective for spiky
 | stream of traffic                           | patterns
-______________________________________________________________________________________
+______________________________________________| _______________________________________
 |                                             | Additional features for API Management:
 |                                             |  
 |                                             | * Export SDK fro clients
 |                                             | * Use throttling and usage plans to control access
 |                                             | * Maintain multiple versions of an API
 |                                             | * Canary deployments
-______________________________________________________________________________________
+_____________________________________________ | _______________________________________
 
 
 
