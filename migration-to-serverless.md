@@ -18,28 +18,27 @@ Where can you refactor or enhance functionality without impacting the current im
 
 
           Aplication Load Balanecer          |   Amazon API Gateway
-____________________________________________ | _______________________________________
+:___________________________________________ | ______________________________________:
  Easier to transitor existing computer stack | Good for build REST API and
  where you are already using an              | Ingrating with other services and
  Application Load Balancer                   | Lambda functions
-____________________________________________ | _______________________________________
+:___________________________________________ | ______________________________________:
  Supports authorization via OIDC-capable     | Suports authorization via AWS identity
  providers, include Amazon Cognito user      | and Access Management (IAM), Amazon
  pools                                       | Cognito, and Lambda authorizers
-____________________________________________ | _______________________________________
+:___________________________________________ | ______________________________________:
  Charged by the hour, based on Load          | Charged based on requests served
  Balancer Capacity Units                     | 
-____________________________________________ |
+:___________________________________________ | ______________________________________:
  May be more cost-effective for a steady     | May be more cost-effective for spiky
  stream of traffic                           | patterns
-_____________________________________________| _______________________________________
+:___________________________________________ | ______________________________________:
                                              | Additional features for API Management:
                                              |  
                                              | * Export SDK fro clients
                                              | * Use throttling and usage plans to control access
                                              | * Maintain multiple versions of an API
-                                             | * Canary deployments
-____________________________________________ | _______________________________________
+                                             | * Canary deployments 
 
 
 
